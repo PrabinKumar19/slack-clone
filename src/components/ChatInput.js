@@ -7,12 +7,9 @@ import { useAuthState } from "react-firebase-hooks/auth";
 
 function ChatInput({ channelName, channelId, chatRef }) {
   const [user] = useAuthState(auth);
-  console.log(user);
   const inputRef = useRef(null);
   const sendMessage = (e) => {
     e.preventDefault();
-
-    console.log(channelId);
 
     if (!channelId) {
       return false;

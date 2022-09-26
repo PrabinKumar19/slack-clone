@@ -17,7 +17,6 @@ function SidebarOption({ Icon, title, addChannelOption, id }) {
   };
 
   const selectChannel = () => {
-    console.log(id);
     if (id) {
       dispatch(
         enterRoom({

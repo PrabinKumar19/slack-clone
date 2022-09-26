@@ -12,7 +12,10 @@ function Login() {
   return (
     <LoginContainer>
       <LoginInnerContainer>
-        <img src="https://wiki.nottinghack.org.uk/images/thumb/c/cf/Slack_Mark.svg/600px-Slack_Mark.svg.png" />
+        <img
+          src="https://wiki.nottinghack.org.uk/images/thumb/c/cf/Slack_Mark.svg/600px-Slack_Mark.svg.png"
+          alt=""
+        />
         <h1>Sign In to the Winty Home</h1>
         <p>Winty Fam</p>
 
